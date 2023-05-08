@@ -76,7 +76,11 @@ ZSH_THEME="murilasso_mod"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git battery)
+plugins=(
+    git 
+    battery
+    zsh-autosuggestions
+)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -111,3 +115,15 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
 export JAVA_HOME="/usr/bin/java"
+
+alias subl="'/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl'"
+
+# bun completions
+[ -s "/Users/admin/.bun/_bun" ] && source "/Users/admin/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# golang
+export PATH="$PATH:$(go env GOPATH)/bin"

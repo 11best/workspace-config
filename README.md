@@ -19,3 +19,13 @@
 | magenta | ![#FFD580](https://placehold.co/15x15/FFD580/FFD580.png) | `#FFD580` |
 | cyan | ![#95E6CB](https://placehold.co/15x15/95E6CB/95E6CB.png) | `#95E6CB` |
 | white | ![#C7C7C7](https://placehold.co/15x15/C7C7C7/C7C7C7.png) | `#C7C7C7` |    
+
+install autosuggestion
+```
+git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+```
+
+theme path
+```
+~/.oh-my-zsh/themes
+```

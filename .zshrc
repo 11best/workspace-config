@@ -77,8 +77,7 @@ ZSH_THEME="murilasso_mod"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    git 
-    battery
+    git
     zsh-autosuggestions
 )
 
